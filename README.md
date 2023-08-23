@@ -23,6 +23,7 @@
 - windows 환경에서는(아마?) validate_results.py의 아래와 같은 cv2관련 에러가 날 때가 있음
     cv2.error: OpenCV(4.8.0) D:\a\opencv-python\opencv-python\opencv\modules\highgui\src\window.cpp:1272: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvShowImage'
     * opencv version 문제로 판단됨, pip uninstall opencv-python -> pip install opencv-python으로 해결 가능함
+- 코랩, 주피터 노트북에서 실행시 변환 과정 확인 가능 (shell 실행으로는 불가능)
 - shear 등은 자동 바운딩 박스 변환까지는 안 됨(불가능한 것인지 코드 수정으로 고칠 수 있는 부분인지는 테스트해봐야 함, 그리고 rotation의 각도를 90도 등이 아닌 중간 각도로 할 경우도 테스트 해보아야 함)
 - yolo의 mosaic과 비슷한 기능인 RandomGridShuffle 같은 경우, bounding box자동 처리까지는 지원하지 않는듯함(증식 이미지에 대한 수작업 요함)
 
