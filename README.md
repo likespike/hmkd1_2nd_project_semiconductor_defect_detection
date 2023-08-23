@@ -27,7 +27,7 @@
 - yolo의 mosaic과 비슷한 기능인 RandomGridShuffle 같은 경우, bounding box자동 처리까지는 지원하지 않는듯함(증식 이미지에 대한 수작업 요함)
 
 
-# 가이드
+# 파일 설명
 - contants_ori.yaml 파일을 수정하여 contants.yaml로 저장후 사용하면 됨
     - input-ds : contain the input of YOLOv8 and YOLOv5 which are following directories.
         - input-ds / images : image 파일 경로
@@ -50,7 +50,7 @@
     - save_aug.py : to save the augmented results.
     - validate_results.py : draw the augmented labels on augmented image to visualize the results.
 
-# Usage
+# 사용법
 - install requirements using ```pip install -r requirements.txt```
 - provide the input and output path in **CONSTANT.yaml** file.
 - update the name of transformed_file_name in CONSTANT.yaml otherwise code will overwrite last augmentations.
