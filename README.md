@@ -16,7 +16,7 @@
 - apply_album_aug.py
     - single_obj_bb_yolo_conversion 함수 부분에 괄호 위치 잘못된 것 수정함
 - draw_volo 메서드에서 colab용으로 cv2.imshow -> cv2_imshow로 바꿈 (colab안 쓸 경우는 다시 바꿔야 함)
-- 하고자 하는 프로젝트에 맞게 자잘한 오류? 등을 ChatGPT를 활용하여 수정함
+- 하고자 하는 프로젝트에 맞게 자잘한 오류 등을 수정함
 
 
 # 참고 사항
