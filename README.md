@@ -1,4 +1,4 @@
-# Albumentations 라이브러리를 YoloV5나 YoloV8 등에서 사용 가능하게 함
+# Albumentations Library with YoloV5나 YoloV8
 - 여러가지 augmentation을 쉽게 구현해 줌
 - augmentation 수행에 맞게 자동으로 bounding box도 알맞게 자동 수정하여 처리해 줌
 - model 별로 bounding box 좌표를 처리하는 방식이 다르기 때문에 주의하여야 함
