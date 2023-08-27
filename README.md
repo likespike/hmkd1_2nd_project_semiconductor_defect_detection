@@ -58,3 +58,5 @@
 - Provide the list of classes in CONSTANT.yaml in a sequence as use to assign class number in yolo dataset labelling. 
     - For example, you provided class list is ```['obj1', 'obj2', 'obj3']``` class number used for obj1 in label file should be 0, similarly for 'obj2' class number should be 1 and so on.
 - run the pipeline using ```python3 run.py```- 
+- semiconductor_detection_git.ipynb로 돌려도 import해서 돌려도 됨
+- semiconductor_detection_colab.ipynb로 colab이나 jupyter notebook에서 코드로만 돌려도 됨 (빠르고, 작업하기 좋음)
